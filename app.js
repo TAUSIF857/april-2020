@@ -1,6 +1,6 @@
 const calculator={
-    add:(a,b)=>{
-        return a+b;
+    add:(a,b,c)=>{
+        return a+b+c;
     },
     sub:(a,b)=>{
         return a-b;
@@ -12,7 +12,7 @@ const calculator={
         return a/b;
     }
 }
-console.log(calculator.add(10,10));
+console.log(calculator.add(10,10,10));
 console.log(calculator.sub(10,10));
 console.log(calculator.multiply(10,10));
 console.log(calculator.divide(10,10));
